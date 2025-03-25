@@ -17,8 +17,8 @@ class K_means:
      """
     
     def __init__(self,n_clusters = 2, max_iter = 120) -> None:
-        self.n_clt = n_clusters
-        self.m_it = max_iter
+        self.n_clusters = n_clusters
+        self.max_iter = max_iter
         self.centroids = None
 
     
